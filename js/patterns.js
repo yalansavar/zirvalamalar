@@ -10,7 +10,7 @@
 
 var sentencePatterns = new Array();
 
-// explaining
+// explaining  > Başlığa bir cümle, Alt başlığa iki cümle
 sentencePatterns[0] = [
   'nMass is the driver of nMass',
   'nMass is the nTheXOf of nMass, and of us',

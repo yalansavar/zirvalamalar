@@ -188,7 +188,7 @@ function generateText(numberOfSentences, sentenceTopic) {
   // replace 'a [vowel]' with 'an [vowel]'
   // I added a \W before the [Aa] because one time I got
   // "Dogman is the antithesis of knowledge" :)
-  fullText = fullText.replace(/(^|\W)([Aa]) ([aeiou])/g,'$1$2n $3');
+  // removed for Turkish fullText = fullText.replace(/(^|\W)([Aa]) ([aeiou])/g,'$1$2n $3'); 
 
   // take care of prefixes (delete the space after the hyphen)
   fullText = fullText.replace(/- /g,'-');
