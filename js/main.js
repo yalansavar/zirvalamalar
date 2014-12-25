@@ -227,9 +227,8 @@ $('.topbar button').click(function(){
 
 });
 
-
 $(document).ready(function() {
-
+    
 });
 
 
